@@ -35,11 +35,13 @@ export const Login = () => {
         <div className="center">
 
             <h1 >Login</h1>
-            <i className="fa fa-user-circle" aria-hidden="true" style={{ paddingBottom: "15px", fontSize: "40px" }}></i>
+            <i className="fa fa-user-circle" aria-hidden="true" 
+             style={{ paddingBottom: "15px", fontSize: "40px", paddingLeft:"133px"}}></i>
 
             <form onSubmit={onSubmit}>
 
                 <input type="text" placeholder="Enter Username"
+                
                     value={username} onChange={(event) => setUsername(event.target.value)} />
 
                 <input type="password" placeholder="Enter Password"
